@@ -1,8 +1,0 @@
-// Sass快速入門 - 模組化，分割檔案分乾淨！
-
-@use 'base';
-
-.title {
-  color: base.$primary;
-  @include base.text-size();
-}
